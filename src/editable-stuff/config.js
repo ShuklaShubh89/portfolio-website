@@ -156,25 +156,41 @@ const experiences = {
     {
       role: 'Principal Site Reliability Engineer',
       org: 'Ultimate Kronos Group',
-      companylogo: require('../assets/img/ukg.jpg'),
+      companylogo: {
+        src: require('../assets/img/ukg.jpg'),
+        width: 150,
+        height: 150,
+      },
       date: 'Aug 2021 - Present',
     },
     {
       role: 'Senior Site Reliability Engineer',
       org: 'Cvent India',
-      companylogo: require('../assets/img/cvent.png'),
+      companylogo: {
+        src: require('../assets/img/cvent.png'),
+        width: 200,
+        height: 100,
+      },
       date: 'Nov 2019 - Aug 2021',
     },
     {
       role: 'Senior Associate Devops',
       org: 'Publicis Sapient',
-      companylogo: require('../assets/img/sapient.jpg'),
+      companylogo: {
+        src: require('../assets/img/sapient.jpg'),
+        width: 200,
+        height: 200,
+      },
       date: 'Apr 2018 - Nov 2019',
     },
     {
       role: 'Senior Application Development Analyst',
       org: 'Accenture India',
-      companylogo: require('../assets/img/accenture.png'),
+      companylogo: {
+        src: require('../assets/img/accenture.png'),
+        width: 200,
+        height: 100,
+      },
       date: 'June 2012 - Apr 2018',
     },
   ]

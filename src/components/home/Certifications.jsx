@@ -10,7 +10,7 @@ const Certification = ({ heading, img, imageSize }) => {
       style={{ backgroundColor: 'rgba(240, 240, 240)' }}
     >
       <h2 className="display-4 pb-5 text-center">{heading}</h2>
-        <div className="col-md-12">
+        <div className="col-md-12 text-center">
             { img.map((value, index) => {
               return (
                 <Figure>
