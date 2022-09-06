@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.778eeed7.css",
+    "main.js": "/static/js/main.8a87465b.js",
+    "static/js/787.4b24f717.chunk.js": "/static/js/787.4b24f717.chunk.js",
+    "static/media/ava.jpg": "/static/media/ava.4e8c6eb5f73b525acf2a.jpg",
+    "static/media/cks_logo.png": "/static/media/cks_logo.4ea0ef3388332b104cd6.png",
+    "static/media/resume-shubhamshukla.pdf": "/static/media/resume-shubhamshukla.f1cc86ba972179053a3e.pdf",
+    "static/media/cka_logo.png": "/static/media/cka_logo.e8cf8c9610d85766cda8.png",
+    "static/media/sysops.png": "/static/media/sysops.f0fc8b313b989e1b9018.png",
+    "static/media/saa.png": "/static/media/saa.5de5ac5041c48c198d8b.png",
+    "static/media/gcp_ace.png": "/static/media/gcp_ace.9ebe9beff7fa1483ce70.png",
+    "static/media/sapro.png": "/static/media/sapro.54576ff21ffb016410f4.png",
+    "static/media/devopspro.png": "/static/media/devopspro.db1fad90378fdf9cb500.png",
+    "index.html": "/index.html",
+    "main.778eeed7.css.map": "/static/css/main.778eeed7.css.map",
+    "main.8a87465b.js.map": "/static/js/main.8a87465b.js.map",
+    "787.4b24f717.chunk.js.map": "/static/js/787.4b24f717.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.778eeed7.css",
+    "static/js/main.8a87465b.js"
+  ]
+}
