@@ -3,3 +3,18 @@
 @import "./index";
 @import "./stars";
 @import "./typography";
+
+
+.counter {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .counter span {
+    display: inline-block;
+    padding: 8px 8px 6px;
+    border-radius: 6px;
+    background: #80b4e5;
+    margin: 5px 5px;
+    font-size: 2rem;
+  }
