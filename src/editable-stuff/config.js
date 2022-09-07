@@ -49,8 +49,7 @@ const about = {
   imageLink: require("../assets/img/ava.jpg"),
   imageSize: 325,
   message:
-    "My name is Shubham Shukla. I'm an experience SRE/Devops Engineer with more than 10 years of industry experience.  \
-    Always fascinated by new technologies , i work to keep those servers ticking in the background while the consumers enjoy the smooth uninterrupted experience.",
+    "My name is Shubham Shukla. I'm an experience SRE/Devops Engineer with more than 10 years of industry experience. Always fascinated by new technologies , i work to keep those servers ticking in the background while the consumers enjoy the smooth uninterrupted experience.",
   resume: require("../assets/pdf/resume-shubhamshukla.pdf"),
 };
 

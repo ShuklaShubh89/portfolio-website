@@ -28,16 +28,6 @@ const Footer = (props) => {
             }
       }
       
-      var updatePayload = {
-        "operation": "update",
-        "tableName": "countervisitor",
-        "payload": {
-          "Key": {
-            "count": countvar
-          }
-        }
-      }
-      
       const readAction = async(flag) => {
         const response = await fetch('https://j9t296xsr2.execute-api.us-east-1.amazonaws.com/prod/ddmanager', {
           method: 'POST',
@@ -48,7 +38,7 @@ const Footer = (props) => {
         });
         const myJson = await response.json(); //extract JSON from the http response
         countvar = myJson.Count;
-        if(flag=="new"){
+        if(flag==="new"){
           writeAction()
         }else {
           setValue(countvar)
@@ -72,7 +62,7 @@ const Footer = (props) => {
             'Content-Type': 'application/json'
           }
         });
-        const myJson = await response.json();
+        await response.json();
         setValue(countvar)
       }
     
