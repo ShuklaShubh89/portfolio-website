@@ -186,18 +186,22 @@ const experiences = {
       role: 'Senior Application Development Analyst',
       org: 'Accenture India',
       companylogo: {
-        src: require('../assets/img/accenture.png'),
+        src: require('../assets/img/accenture.jpg'),
         width: 200,
-        height: 100,
+        height: 200,
       },
       date: 'June 2012 - Apr 2018',
     },
   ]
 }
 
+const architecture = {
+  show: true,
+  //src: require('../assets/img/architecture.png')
+}
 // Blog SECTION
 // const blog = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, certifications, getInTouch, experiences };
+export { navBar, mainBody, about, repos, skills, certifications, getInTouch, experiences, architecture };
