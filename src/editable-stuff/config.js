@@ -105,6 +105,11 @@ const certifications = {
       img: require("../assets/img/gcp_ace.png"), 
       caption: "GCP Associate Cloud Engineer", 
       expires: "Sep 2023"
+    },
+    { 
+      img: require("../assets/img/terraform.png"), 
+      caption: "Hashicorp Terraform Associate", 
+      expires: "Oct 2024"
     }
   ],
   imageSize: {
